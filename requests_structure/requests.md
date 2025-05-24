@@ -39,9 +39,7 @@ Content-Type: application/json
 Authorization: Bearer <token>
 
 **запрос**
-{
-    "manager_name": "Fomgleb"
-}
+Пустой(т.к. manager_id извлекается из jwt bearer токена)
 
 **ответ**
 {
