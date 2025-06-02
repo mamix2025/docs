@@ -75,3 +75,31 @@ Authorization: Bearer <token>
     "success": true,
     "request_id": 502
 }
+
+## POST /api/requests/delete
+Content-Type: application/json
+Authorization: Bearer <token>
+**запрос**
+{
+    "request_id": 1
+}
+
+**ответ**
+{
+    "success": true,
+    "message": "Request 1 deleted successfully"
+}
+
+## POST /api/requests/change_status
+Content-Type: application/json
+Authorization: Bearer <token>
+**запрос**
+{
+    "request_id": 1,
+    "status_id": 2
+}
+
+**ответ**
+{
+    "success": true
+}
