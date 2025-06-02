@@ -79,6 +79,7 @@ Authorization: Bearer <token>
 ## POST /api/requests/delete
 Content-Type: application/json
 Authorization: Bearer <token>
+
 **запрос**
 {
     "request_id": 1
@@ -93,6 +94,7 @@ Authorization: Bearer <token>
 ## POST /api/requests/change_status
 Content-Type: application/json
 Authorization: Bearer <token>
+
 **запрос**
 {
     "request_id": 1,
